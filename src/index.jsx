@@ -66,10 +66,10 @@ const FancyButton = ({ label, type, variant, onClick, ...props }) => {
   );
 };
 
-FancyButton.defaultProps = {
-  type: "button",
-  variant: "outlined",
-};
+// FancyButton.defaultProps = {
+//   type: "button",
+//   variant: "outlined",
+// };
 
 // FancyButton.propTypes = {
 //     label: PropTypes.string.isRequired,
